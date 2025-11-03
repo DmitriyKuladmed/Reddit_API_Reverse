@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Lab Client</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style>
+		body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+		code { background: #f2f2f2; padding: 0.2rem 0.4rem; border-radius: 4px; }
+		pre { background: #f8f8f8; padding: 1rem; border-radius: 6px; overflow: auto; }
+		.btn { background: #0f62fe; color: white; border: 0; border-radius: 6px; padding: 0.6rem 1rem; cursor: pointer; }
+		.btn:disabled { background: #b3c7ff; cursor: not-allowed; }
+	</style>
+</head>
+<body>
+	<h1>Lab Client</h1>
+	<p>Этот стенд имитирует API с простейшими защитами: rate limit и токен, «привязанный» к User-Agent.</p>
+	<button id="btn" class="btn">Fetch posts</button>
+	<pre id="out"></pre>
+	<script src="/static/app.js"></script>
+</body>
+</html>
