@@ -42,7 +42,7 @@ python -m src.lab_server
 - `GET /api/posts` — требует `Authorization: Bearer <token>`; ограничивает частоту запросов (429 + `Retry-After`).
 - `lab_static/app.js` — слегка обфусцирован, чтобы тренироваться искать логику.
 
-## Отчёт (кратко и по делу, пункты 1–6)
+## Отчёт 
 
 ### Reddit (официальный API, без реверса/обхода)
 - **1) Эндпоинты**: `https://oauth.reddit.com/r/technology/{hot|new|top}`. Параметры: `limit<=100`, `after`/`before`, для `top` — `t` (`hour|day|week|month|year|all`).
